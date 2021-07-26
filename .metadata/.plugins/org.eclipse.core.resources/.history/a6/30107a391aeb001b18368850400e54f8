@@ -1,0 +1,5 @@
+package com.jeewan.magar.reservationservices.entity;
+
+public class Reservation {
+
+}

@@ -1,0 +1,5 @@
+#spring.application.name=guestservices
+#spring.cloud.config.uri=http://localhost:9000
+
+spring.application.name=guestServices
+spring.cloud.config.uri=http://localhost:9000

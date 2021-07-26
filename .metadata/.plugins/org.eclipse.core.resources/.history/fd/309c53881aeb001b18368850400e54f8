@@ -1,0 +1,5 @@
+package com.jeewan.magar.reservationservices.repositary;
+
+public class ReservationRepositary {
+
+}

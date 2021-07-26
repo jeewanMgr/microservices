@@ -1,0 +1,20 @@
+package com.jeewan.magar.reservationservices.reservationController;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jeewan.magar.reservationservices.repositary.ReservationRepositary;
+
+@RestController
+public class ReservationController {
+	
+	private ReservationRepositary reservationRepository;
+	
+	ReservationController(ReservationRepositary repo)
+	{
+		this.reservationRepository = repo;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package com.jeewan.magar.guestservices.repositary;
+import org.springframework.data.repository.CrudRepository;
+
+import com.jeewan.magar.guestservices.entity.*;
+public interface GuestRepositary extends CrudRepository<Guest,Long>{
+
+}

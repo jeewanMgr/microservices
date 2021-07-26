@@ -1,0 +1,5 @@
+package com.jeewan.magar.guestservices.repositary;
+import com.jeewan.magar.guestservices.entity.*;
+public interface GuestRepositary extends CurdRepositary<Guest,Long>{
+
+}

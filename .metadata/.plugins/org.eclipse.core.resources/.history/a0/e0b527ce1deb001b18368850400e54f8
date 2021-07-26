@@ -1,0 +1,9 @@
+package com.jeewan.magar.roomservices.Repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RoomRepository extends CrudRepository<Room,long>{
+	
+
+}

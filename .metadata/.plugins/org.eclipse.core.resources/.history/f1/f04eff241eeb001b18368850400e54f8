@@ -1,0 +1,15 @@
+package com.jeewan.magar.roomservices.roomController;
+
+
+@RestController
+@RequestMapping("/rooms")
+public class RoomController {
+	
+	private RoomRepository roomRepo;
+	
+	RoomController(RoomRepository roomrepo)
+	{
+		this.roomRepo = roomrepo;
+	}
+
+}

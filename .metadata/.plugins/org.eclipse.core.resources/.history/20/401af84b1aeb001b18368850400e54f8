@@ -1,0 +1,27 @@
+package com.jeewan.magar.reservationservices.entity;
+import java.util.Date;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="RESERVATION")
+public class Reservation {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY )
+	@Column(name="RESERVATION_ID")
+	private long id;
+	
+	@Column(name="ROOM_ID")
+	private long roomId;
+	
+	@Column(name="GUEST_ID")
+	private long guestId;
+	
+	
+	@Column(name="RES_DATE")
+	private Date date;
+	
+	
+	
+}

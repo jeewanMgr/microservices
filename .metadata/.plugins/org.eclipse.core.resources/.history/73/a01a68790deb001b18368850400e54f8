@@ -1,0 +1,21 @@
+package com.jeewan.magar.guestservices.GuestController;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jeewan.magar.guestservices.repositary.GuestRepositary;
+
+@RestController
+@RequestMapping("/guests")
+public class GuestWebServices {
+	
+	private final GuestRepositary repositary;
+	
+	GuestWebServices(GuestRepositary repo)
+	{
+		this.repositary = repo;
+	}
+
+	
+	
+}

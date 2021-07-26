@@ -1,0 +1,14 @@
+package com.jeewan.magar.roomservices.entity;
+import javax.persistence.*;
+
+@Entity
+@Table(name="ROOM")
+public class Room {
+	//GenerationType
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="ROOM_ID")
+	private long id;
+	
+}

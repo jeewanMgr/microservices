@@ -1,0 +1,5 @@
+package com.jeewan.magar.guestservices.GuestController;
+
+public class GuestWebServices {
+
+}

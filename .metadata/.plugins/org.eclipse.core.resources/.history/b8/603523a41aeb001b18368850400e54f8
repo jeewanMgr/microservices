@@ -1,0 +1,7 @@
+package com.jeewan.magar.reservationservices.repositary;
+import com.jeewan.magar.reservationservices.entity.*;
+
+
+public interface ReservationRepositary extends CrudRepositary<Reservation,Long> {
+
+}

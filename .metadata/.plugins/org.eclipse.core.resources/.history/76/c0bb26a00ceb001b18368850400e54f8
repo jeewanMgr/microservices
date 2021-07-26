@@ -1,0 +1,5 @@
+package com.jeewan.magar.guestservices.repositary;
+
+public class GuestRepositary {
+
+}

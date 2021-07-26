@@ -1,0 +1,5 @@
+package com.jeewan.magar.roomservices.Repository;
+
+public interface RoomRepository {
+
+}

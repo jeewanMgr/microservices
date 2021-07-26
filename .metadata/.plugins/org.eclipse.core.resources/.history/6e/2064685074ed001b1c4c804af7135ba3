@@ -1,0 +1,2 @@
+spring.application.name=guestservices
+spring.cloud.config.uri=http://locahost:9090

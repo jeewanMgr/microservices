@@ -1,0 +1,10 @@
+package com.jeewan.magar.guestservices.entity;
+
+
+@Entity
+@Table(name="GUEST")
+public class Guest {
+	
+	
+
+}
