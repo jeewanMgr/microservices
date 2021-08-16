@@ -2,6 +2,6 @@
 <aop-reference-model>
 <aop-project name="config-server"/>
 <aop-project name="guest-services"/>
-<aop-project name="room-services"/>
 <aop-project name="reservation-services"/>
+<aop-project name="room-services"/>
 </aop-reference-model>
